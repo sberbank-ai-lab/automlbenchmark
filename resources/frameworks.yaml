@@ -62,10 +62,6 @@ autosklearn:
   version: '0.11.1'
   project: https://automl.github.io/auto-sklearn/
 
-autosklearn2:
-  version: '0.7.0'
-  project: https://automl.github.io/auto-sklearn/stable/
-
 AutoWEKA:
   version: '2.6'
   project: https://www.cs.ubc.ca/labs/beta/Projects/autoweka/
