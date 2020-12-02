@@ -135,3 +135,6 @@ mljarsupervised:
     mode: "Compete"   # set mode for Compete, default mode is Explain
 #    algorithms: ["Baseline"]
 #    _save_artifacts: True
+
+lightautoml:
+  version: 'latest'
