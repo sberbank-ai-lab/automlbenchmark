@@ -25,11 +25,11 @@ constantpredictor_enc:
     encode: true
 
 DecisionTree:
-  version: '0.22.2'
+  version: 'latest'
   project: https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
 
 RandomForest:
-  version: '0.22.2'
+  version: 'latest'
   project: http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
   params:
     n_estimators: 2000
@@ -37,7 +37,7 @@ RandomForest:
 #    verbose: true
 
 TunedRandomForest:
-  version: '0.22.2'
+  version: 'latest'
   project: http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
   params:
     n_estimators: 2000
@@ -59,7 +59,7 @@ AutoGluon_best:
     presets: best_quality
 
 autosklearn:
-  version: '0.8.0'
+  version: '0.11.1'
   project: https://automl.github.io/auto-sklearn/
 #  params:
 #    _save_artifacts: ['models']
@@ -89,15 +89,20 @@ autoxgboost:
   project: https://github.com/ja-thomas/autoxgboost
 
 GAMA:
-  version: '20.1.0'
+  version: '20.2.1'
   project: https://github.com/PGijsbers/gama
 
 H2OAutoML:
-  version: '3.30.0.4'
-  setup_args: 'zahradnik'
+  version: '3.32.0.1'
+  setup_args: 'zermelo'
   project: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
 #  params:
 #    _save_artifacts: ['leaderboard', 'logs', 'models', 'models_predictions', 'mojos']
+
+H2OAutoML_zermelo:
+  version: 'latest'
+  setup_args: 'zermelo'
+  project: http://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html
 
 hyperoptsklearn:
   version: 'latest'
@@ -120,7 +125,7 @@ ranger:
   project: https://github.com/imbs-hl/ranger
 
 TPOT:
-  version: '0.11.5'
+  version: 'latest'
   project: https://github.com/EpistasisLab/tpot
 #  params:
 #    _save_artifacts: ['models']
@@ -136,5 +141,10 @@ mljarsupervised:
 #    algorithms: ["Baseline"]
 #    _save_artifacts: True
 
+
 lightautoml:
-  version: 'latest'
+  project: https://github.com/sberbank-ai-lab/LightAutoML
+#  version: '0.2.7'
+  version: 'bugfix/time_estimation'
+  params:
+    _save_artifacts: ['models']
