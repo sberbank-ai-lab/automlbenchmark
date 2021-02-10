@@ -4,7 +4,7 @@ Full benchmark process was executed in docker mode on cloud server under OS Ubun
 Docker provides ways to control how much memory, or CPU a container can use, so each container was executed with resources limits specified in OpenML Benchmark configuration. 
 
 <p align="center">
-    <img src="https://github.com/sberbank-ai-lab/automlbenchmark/tree/lightautoml/reports_with_automl/results.jpg"  width=200>
+    <img src="https://github.com/sberbank-ai-lab/automlbenchmark/blob/lightautoml/reports_with_lightautoml/results.jpg"  width=200>
     <br>
 </p>
 
