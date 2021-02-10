@@ -9,7 +9,7 @@ Docker provides ways to control how much memory, or CPU a container can use, so 
 </p>
 
 
-Results: `./reports_with_automl/reports.ipynb`
+Results: `./reports_with_lightautoml/reports.ipynb`
 
 All docker images used in benchmark is available here:
 https://hub.docker.com/u/sberailab/
