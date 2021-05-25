@@ -8,6 +8,11 @@ Docker provides ways to control how much memory, or CPU a container can use, so 
     <br>
 </p>
 
+<p align="center">
+    <img src="https://github.com/sberbank-ai-lab/automlbenchmark/blob/lightautoml/reports_with_lightautoml/AutoML_results_on_OpenML_datasets.png"  width=1000>
+    <br>
+</p>
+
 
 Results: `./reports_with_lightautoml/reports.ipynb`
 
